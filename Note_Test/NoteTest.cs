@@ -36,9 +36,9 @@ namespace Note_Test
 
             var result = controller.GetAllNotes();
 
-            var objectResult = result as OkObjectResult; 
-            Assert.NotNull(objectResult);  
-            Assert.Equal(StatusCodes.Status200OK, objectResult.StatusCode); 
+            var objectResult = result as OkObjectResult;
+            Assert.NotNull(objectResult);
+            Assert.Equal(StatusCodes.Status200OK, objectResult.StatusCode);
         }
 
         [Fact]
@@ -53,6 +53,11 @@ namespace Note_Test
             var createdActionResult = result as CreatedAtActionResult;
             Assert.NotNull(createdActionResult);
             Assert.Equal(StatusCodes.Status201Created, createdActionResult.StatusCode);
+
+            var noteInDb = Dbcontext.Notes.FirstOrDefault(n => n.Title == addNote.Title);
+            Assert.NotNull(noteInDb);
+            Assert.Equal("туруру", noteInDb.Title);
+            Assert.Equal("туруру", noteInDb.Text);
         }
 
         [Fact]
@@ -64,13 +69,18 @@ namespace Note_Test
             Dbcontext.SaveChanges();
 
             var controller = new NoteController(Dbcontext);
-            var updatedNote = new Note { Title = "туруру", Text = "туруру" };
+            var updateNote = new Note { Title = "туруруууу", Text = "туруруруру" };
 
-            var result = controller.UpdateNote(id, updatedNote);
+            var result = controller.UpdateNote(id, updateNote);
 
             var okResult = result as OkObjectResult;
             Assert.NotNull(okResult);
             Assert.Equal(StatusCodes.Status200OK, okResult.StatusCode);
+
+            var noteInDb = Dbcontext.Notes.FirstOrDefault(n => n.Id == id);
+            Assert.NotNull(noteInDb);
+            Assert.Equal("туруруууу", noteInDb.Title); 
+            Assert.Equal("туруруруру", noteInDb.Text);
         }
 
         [Fact]
@@ -86,6 +96,9 @@ namespace Note_Test
             var result = controller.DeleteNote(id);
 
             Assert.IsType<NoContentResult>(result);
+
+            var noteInDb = Dbcontext.Notes.FirstOrDefault(n => n.Id == id);
+            Assert.Null(noteInDb);
         }
     }
 }

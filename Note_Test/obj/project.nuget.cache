@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2qYxtULaziCqXy1s9n/d2CpAQG5J1USKg5A0YQR8JgwOT64W6oFS71QWQoC2ldCkONPb0QJRl6b5xaBuA1B2Wg==",
+  "dgSpecHash": "j4BiJJ5Lc6e28unrMRACOmHAGVvUj4aKF+oK1t3qrjg5Hy4Ni2eK+koAlGwKYv8fWPMWT34+KlkAThlao+VbSw==",
   "success": true,
-  "projectFilePath": "C:\\LanguageNext\\Note_Test\\Note_Test.csproj",
+  "projectFilePath": "C:\\Users\\38067\\Documents\\GitHub\\Note_Test\\Note_Test\\Note_Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\38067\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\38067\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

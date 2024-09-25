@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\LanguageNext\\NotTest\\NotTest.csproj": {}
+    "C:\\Users\\38067\\Documents\\GitHub\\Note_Test\\NotTest\\NotTest.csproj": {}
   },
   "projects": {
-    "C:\\LanguageNext\\NotTest\\NotTest.csproj": {
+    "C:\\Users\\38067\\Documents\\GitHub\\Note_Test\\NotTest\\NotTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\LanguageNext\\NotTest\\NotTest.csproj",
+        "projectUniqueName": "C:\\Users\\38067\\Documents\\GitHub\\Note_Test\\NotTest\\NotTest.csproj",
         "projectName": "NotTest",
-        "projectPath": "C:\\LanguageNext\\NotTest\\NotTest.csproj",
+        "projectPath": "C:\\Users\\38067\\Documents\\GitHub\\Note_Test\\NotTest\\NotTest.csproj",
         "packagesPath": "C:\\Users\\38067\\.nuget\\packages\\",
-        "outputPath": "C:\\LanguageNext\\NotTest\\obj\\",
+        "outputPath": "C:\\Users\\38067\\Documents\\GitHub\\Note_Test\\NotTest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

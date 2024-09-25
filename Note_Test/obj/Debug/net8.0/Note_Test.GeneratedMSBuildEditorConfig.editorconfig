@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Note_Test
-build_property.ProjectDir = C:\LanguageNext\Note_Test\
+build_property.ProjectDir = C:\Users\38067\Documents\GitHub\Note_Test\Note_Test\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

@@ -1,32 +1,32 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\LanguageNext\\NotTest\\",
+  "WorkspaceRootPath": "C:\\Users\\38067\\Documents\\GitHub\\Note_Test\\NotTest\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{30916106-03D8-4202-9DCC-50DA14E29D2F}|..\\Note_Test\\Note_Test.csproj|c:\\languagenext\\note_test\\notetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{30916106-03D8-4202-9DCC-50DA14E29D2F}|..\\Note_Test\\Note_Test.csproj|c:\\users\\38067\\documents\\github\\note_test\\note_test\\notetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F02EE986-4BF3-4A8F-A5C9-0E497FBBA547}|NotTest.csproj|c:\\languagenext\\nottest\\models\\dbnotecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F02EE986-4BF3-4A8F-A5C9-0E497FBBA547}|NotTest.csproj|solutionrelative:models\\dbnotecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F02EE986-4BF3-4A8F-A5C9-0E497FBBA547}|NotTest.csproj|c:\\languagenext\\nottest\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{F02EE986-4BF3-4A8F-A5C9-0E497FBBA547}|NotTest.csproj|C:\\Users\\38067\\Documents\\GitHub\\Note_Test\\NotTest\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{F02EE986-4BF3-4A8F-A5C9-0E497FBBA547}|NotTest.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F02EE986-4BF3-4A8F-A5C9-0E497FBBA547}|NotTest.csproj|c:\\languagenext\\nottest\\controllers\\notecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F02EE986-4BF3-4A8F-A5C9-0E497FBBA547}|NotTest.csproj|C:\\Users\\38067\\Documents\\GitHub\\Note_Test\\NotTest\\models\\dbnotecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F02EE986-4BF3-4A8F-A5C9-0E497FBBA547}|NotTest.csproj|solutionrelative:models\\dbnotecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F02EE986-4BF3-4A8F-A5C9-0E497FBBA547}|NotTest.csproj|C:\\Users\\38067\\Documents\\GitHub\\Note_Test\\NotTest\\controllers\\notecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F02EE986-4BF3-4A8F-A5C9-0E497FBBA547}|NotTest.csproj|solutionrelative:controllers\\notecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F02EE986-4BF3-4A8F-A5C9-0E497FBBA547}|NotTest.csproj|c:\\languagenext\\nottest\\migrations\\20240924190137_initnotemigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F02EE986-4BF3-4A8F-A5C9-0E497FBBA547}|NotTest.csproj|C:\\Users\\38067\\Documents\\GitHub\\Note_Test\\NotTest\\migrations\\20240924190137_initnotemigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F02EE986-4BF3-4A8F-A5C9-0E497FBBA547}|NotTest.csproj|solutionrelative:migrations\\20240924190137_initnotemigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F02EE986-4BF3-4A8F-A5C9-0E497FBBA547}|NotTest.csproj|c:\\languagenext\\nottest\\models\\note.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F02EE986-4BF3-4A8F-A5C9-0E497FBBA547}|NotTest.csproj|C:\\Users\\38067\\Documents\\GitHub\\Note_Test\\NotTest\\models\\note.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F02EE986-4BF3-4A8F-A5C9-0E497FBBA547}|NotTest.csproj|solutionrelative:models\\note.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F02EE986-4BF3-4A8F-A5C9-0E497FBBA547}|NotTest.csproj|c:\\languagenext\\nottest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F02EE986-4BF3-4A8F-A5C9-0E497FBBA547}|NotTest.csproj|C:\\Users\\38067\\Documents\\GitHub\\Note_Test\\NotTest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F02EE986-4BF3-4A8F-A5C9-0E497FBBA547}|NotTest.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -43,92 +43,87 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "NoteTest.cs",
-              "DocumentMoniker": "C:\\LanguageNext\\Note_Test\\NoteTest.cs",
+              "DocumentMoniker": "C:\\Users\\38067\\Documents\\GitHub\\Note_Test\\Note_Test\\NoteTest.cs",
               "RelativeDocumentMoniker": "..\\Note_Test\\NoteTest.cs",
-              "ToolTip": "C:\\LanguageNext\\Note_Test\\NoteTest.cs",
+              "ToolTip": "C:\\Users\\38067\\Documents\\GitHub\\Note_Test\\Note_Test\\NoteTest.cs",
               "RelativeToolTip": "..\\Note_Test\\NoteTest.cs",
-              "ViewState": "AQIAAEMAAAAAAAAAAAAkwFEAAAAVAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAmwGMAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-25T11:25:37.007Z",
+              "WhenOpened": "2024-09-25T15:23:02.91Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "20240924190137_InitNoteMigration.cs",
-              "DocumentMoniker": "C:\\LanguageNext\\NotTest\\Migrations\\20240924190137_InitNoteMigration.cs",
+              "DocumentMoniker": "C:\\Users\\38067\\Documents\\GitHub\\Note_Test\\NotTest\\Migrations\\20240924190137_InitNoteMigration.cs",
               "RelativeDocumentMoniker": "Migrations\\20240924190137_InitNoteMigration.cs",
-              "ToolTip": "C:\\LanguageNext\\NotTest\\Migrations\\20240924190137_InitNoteMigration.cs",
+              "ToolTip": "C:\\Users\\38067\\Documents\\GitHub\\Note_Test\\NotTest\\Migrations\\20240924190137_InitNoteMigration.cs",
               "RelativeToolTip": "Migrations\\20240924190137_InitNoteMigration.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T19:01:38.469Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-24T19:01:38.469Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\LanguageNext\\NotTest\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\38067\\Documents\\GitHub\\Note_Test\\NotTest\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\LanguageNext\\NotTest\\appsettings.json",
+              "ToolTip": "C:\\Users\\38067\\Documents\\GitHub\\Note_Test\\NotTest\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABNAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAACEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-09-24T18:30:25.44Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "DbNoteContext.cs",
-              "DocumentMoniker": "C:\\LanguageNext\\NotTest\\Models\\DbNoteContext.cs",
+              "DocumentMoniker": "C:\\Users\\38067\\Documents\\GitHub\\Note_Test\\NotTest\\Models\\DbNoteContext.cs",
               "RelativeDocumentMoniker": "Models\\DbNoteContext.cs",
-              "ToolTip": "C:\\LanguageNext\\NotTest\\Models\\DbNoteContext.cs",
+              "ToolTip": "C:\\Users\\38067\\Documents\\GitHub\\Note_Test\\NotTest\\Models\\DbNoteContext.cs",
               "RelativeToolTip": "Models\\DbNoteContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T17:39:02.383Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-24T17:39:02.383Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "Note.cs",
-              "DocumentMoniker": "C:\\LanguageNext\\NotTest\\Models\\Note.cs",
+              "DocumentMoniker": "C:\\Users\\38067\\Documents\\GitHub\\Note_Test\\NotTest\\Models\\Note.cs",
               "RelativeDocumentMoniker": "Models\\Note.cs",
-              "ToolTip": "C:\\LanguageNext\\NotTest\\Models\\Note.cs",
+              "ToolTip": "C:\\Users\\38067\\Documents\\GitHub\\Note_Test\\NotTest\\Models\\Note.cs",
               "RelativeToolTip": "Models\\Note.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T15:26:15.439Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-24T15:26:15.439Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "NoteController.cs",
-              "DocumentMoniker": "C:\\LanguageNext\\NotTest\\Controllers\\NoteController.cs",
+              "DocumentMoniker": "C:\\Users\\38067\\Documents\\GitHub\\Note_Test\\NotTest\\Controllers\\NoteController.cs",
               "RelativeDocumentMoniker": "Controllers\\NoteController.cs",
-              "ToolTip": "C:\\LanguageNext\\NotTest\\Controllers\\NoteController.cs",
+              "ToolTip": "C:\\Users\\38067\\Documents\\GitHub\\Note_Test\\NotTest\\Controllers\\NoteController.cs",
               "RelativeToolTip": "Controllers\\NoteController.cs",
               "ViewState": "AQIAACsAAAAAAAAAAAAqwEsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T15:24:26.199Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-24T15:24:26.199Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\LanguageNext\\NotTest\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\38067\\Documents\\GitHub\\Note_Test\\NotTest\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\LanguageNext\\NotTest\\Program.cs",
+              "ToolTip": "C:\\Users\\38067\\Documents\\GitHub\\Note_Test\\NotTest\\Program.cs",
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T18:31:19.957Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-24T18:31:19.957Z"
             }
           ]
         }
