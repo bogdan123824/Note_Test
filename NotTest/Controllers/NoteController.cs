@@ -17,14 +17,14 @@ namespace NotTest.Controllers
             _context = context;
         }
 
-        [HttpGet]
+        [HttpGet(Name = "GetAllNotes")]
         public IActionResult GetAllNotes()
         {
             var notes = _context.Notes.ToList();
             return Ok(notes);
         }
 
-        [HttpGet("{id:Guid}")]
+        [HttpGet(Name = "GetNoteById")]
         public IActionResult GetNoteById(Guid id)
         {
             var note = _context.Notes.Find(id);
@@ -35,7 +35,7 @@ namespace NotTest.Controllers
             return Ok(note);
         }
 
-        [HttpPost]
+        [HttpPost(Name = "AddNote")]
         public IActionResult AddNote([FromBody] Note note)
         {
             note.Id = Guid.NewGuid();
@@ -44,21 +44,21 @@ namespace NotTest.Controllers
             return CreatedAtAction(nameof(GetNoteById), new { id = note.Id }, note);
         }
 
-        [HttpPut("{id:Guid}")]
-        public IActionResult UpdateNote(Guid id, [FromBody] Note updatedNote)
+        [HttpPut(Name = "UpdateNote")]
+        public IActionResult UpdateNote(Guid id, [FromBody] Note updateNote)
         {
             var note = _context.Notes.Find(id);
             if (note == null)
             {
                 return NotFound();
             }
-            note.Title = updatedNote.Title;
-            note.Text = updatedNote.Text;
+            note.Title = updateNote.Title;
+            note.Text = updateNote.Text;
             _context.SaveChanges();
             return Ok(note);
         }
 
-        [HttpDelete("{id:Guid}")]
+        [HttpDelete(Name = "DeleteNote")]
         public IActionResult DeleteNote(Guid id)
         {
             var note = _context.Notes.Find(id);

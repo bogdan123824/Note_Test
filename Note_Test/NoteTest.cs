@@ -27,8 +27,10 @@ namespace Note_Test
             var Dbcontext = GetMemoryDbContext();
             Dbcontext.Notes.AddRange(new List<Note>  
             {
-                new Note { Id = Guid.NewGuid(), Title = "туруру 1", Text = "турурур 1" },
-                new Note { Id = Guid.NewGuid(), Title = "туруру 2", Text = "туруру 2" }
+                new Note { Id = Guid.NewGuid(), Title = "туруру ", Text = "турурур " },
+                new Note { Id = Guid.NewGuid(), Title = "турурруруру", Text = "турурурууурууу" },
+                new Note { Id = Guid.NewGuid(), Title = "туруруyyyy", Text = "туруруруру" }
+
             });
             Dbcontext.SaveChanges(); 
 
@@ -50,14 +52,14 @@ namespace Note_Test
 
             var result = controller.AddNote(addNote);
 
-            var createdActionResult = result as CreatedAtActionResult;
-            Assert.NotNull(createdActionResult);
-            Assert.Equal(StatusCodes.Status201Created, createdActionResult.StatusCode);
+            var actionResult = result as CreatedAtActionResult;
+            Assert.NotNull(actionResult);
+            Assert.Equal(StatusCodes.Status201Created, actionResult.StatusCode);
 
-            var noteInDb = Dbcontext.Notes.FirstOrDefault(n => n.Title == addNote.Title);
-            Assert.NotNull(noteInDb);
-            Assert.Equal("туруру", noteInDb.Title);
-            Assert.Equal("туруру", noteInDb.Text);
+            var noteDb = Dbcontext.Notes.FirstOrDefault(n => n.Title == addNote.Title);
+            Assert.NotNull(noteDb);
+            Assert.Equal("туруру", noteDb.Title);
+            Assert.Equal("туруру", noteDb.Text);
         }
 
         [Fact]
@@ -77,10 +79,10 @@ namespace Note_Test
             Assert.NotNull(okResult);
             Assert.Equal(StatusCodes.Status200OK, okResult.StatusCode);
 
-            var noteInDb = Dbcontext.Notes.FirstOrDefault(n => n.Id == id);
-            Assert.NotNull(noteInDb);
-            Assert.Equal("туруруууу", noteInDb.Title); 
-            Assert.Equal("туруруруру", noteInDb.Text);
+            var noteDb = Dbcontext.Notes.FirstOrDefault(n => n.Id == id);
+            Assert.NotNull(noteDb);
+            Assert.Equal("туруруууу", noteDb.Title); 
+            Assert.Equal("туруруруру", noteDb.Text);
         }
 
         [Fact]
@@ -97,8 +99,8 @@ namespace Note_Test
 
             Assert.IsType<NoContentResult>(result);
 
-            var noteInDb = Dbcontext.Notes.FirstOrDefault(n => n.Id == id);
-            Assert.Null(noteInDb);
+            var noteDb = Dbcontext.Notes.FirstOrDefault(n => n.Id == id);
+            Assert.Null(noteDb);
         }
     }
 }
